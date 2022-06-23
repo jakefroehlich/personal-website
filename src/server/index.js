@@ -13,7 +13,7 @@ const startApplication = async () => {
   if (NODE_ENV === 'development') {
     await seed();
   } else {
-    await sync();
+    await sync(true);
   }
   await startServer();
   console.log(chalk.greenBright('App started Successfully'));
