@@ -26,7 +26,7 @@ body {
 }
 
 .homeContainer {
-    height:70%;
+    height: 80%;
     width: 100%;
     background-color: azure;
     overflow: scroll;
@@ -55,7 +55,6 @@ body {
     justify-content: flex-start;
     width: 100%;
     background-color: cornflowerblue;
-    position: fixed;
 }
 
 .navContainer {
