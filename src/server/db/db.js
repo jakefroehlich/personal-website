@@ -7,6 +7,12 @@ const db = new Sequelize(
     || 'postgres://my_user:root@localhost:5432/my_database',
   {
     logging: true,
+    dialectOptions: {
+      ssl: {
+        require: true,
+        rejectUnauthorized: false
+      }
+    }
   },
 );
 
